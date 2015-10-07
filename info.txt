@@ -1,0 +1,9 @@
+Just testing out text editors
+
+seminar folder gets sos_submit to project
+
+Each folder is for a class
+Networking, Data Structures, and Operating Systems
+Most content will be worked on in Dropbox, compleated work should be uploaded to ada.
+
+Thats about it.
