@@ -1,0 +1,58 @@
+Seminar Week 2 notes
+http://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html
+Nicholas Mendelson
+mennic31
+
+
+worked with
+ <jakekelsoe@yahoo.com>,
+ <noahbweiner@gmail.com>,
+ <topiary@openmailbox.org>
+
+1.  What do you think of the meta-principles of simple, compact, and not cryptic? Are these objective criteria?  Can you look at code and judge it on this basis?
+	a. These concepts are good goals
+	they certainly can be objective criteria when analyzed individually
+
+2. Do you understand the relationship of regular expressions and finite automata? Give examples.
+	they are both finite state machines
+	can be represented by states
+
+3. backtracking vs carrying forward: what are the trade-offs?
+	back tracking is slower
+	carrying forward allowed it to move all possible matches forward at each stage
+
+
+4. generality, flexibility, and speed vs simple, compact and not cryptic.
+Are these incompatible categories? Can one be general and simple? flexible and compact? What is flexibility?
+	Code can be both general and simple.
+	Thinking of math ematics computations.
+	Like accumulator function, can do two things with one functions
+	Higher order functions
+
+
+5. use of recursion: the claim is, it is a good use of recursion. What characterizes that statement?
+	always terminates is a big part
+
+6. what is the role of good notation in making a program easier to use and perhaps easier to write.
+  good notation is easier to read and correct while writting it.
+
+7. Describe what matchstar does and how matchstar works.
+  matchstar find regExp matches with occurrences of the previous character in the string
+
+8. Describe what matchhere does and how matchhere works.
+  matchhere finds regExp that use the other constructs, such as single characters, and matching the beggining and end of the string
+
+9. Describe whar match does and how match works.
+
+10. Do a run through on the regexp: "a*cde$" on the text "aaacdef" and on "aaacde".
+  aaacde - true
+  aaacdef - false
+  the 'f' breaks because it's at the end of the imput string 'cde$'
+
+11. This is a good example of the use of C pointers: make sure you understand how they are used.
+
+12. Compare the two matchstar implementations (shortest and longest).
+
+13. If you took Computability already, think about why his claim of the conversoin of a non-deterministic finite automaton might be true? Can you do a sketch of a non-deterministic machine?
+
+14. I'm going to assign one or more of the extensions to you as a C exercise.
